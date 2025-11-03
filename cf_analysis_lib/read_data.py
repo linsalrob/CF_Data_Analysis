@@ -77,9 +77,9 @@ def read_metadata(datadir, sequence_type, categorise=False, verbose=False):
     if sequence_type.lower() == 'mgi':
         sequencing = ['MGI']
     elif sequence_type.lower() == 'minion':
-        sequencing = ['minion']
+        sequencing = ['MinION']
     elif sequence_type.lower() == 'mgi_minion':
-        sequencing = ['MGI', 'minion']
+        sequencing = ['MGI', 'MinION']
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
@@ -120,6 +120,15 @@ def read_subsystems(subsystems_file, sequence_type):
     """
     Read the subsystems file and return a data frame
     """
+    
+    if sequence_type.lower() == 'mgi':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI'
+    elif sequence_type.lower() == 'minion':
+        sequence_type = 'MinION'
+        sequence_dir = 'MinION'
+    else:
+        raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
     if not os.path.exists(subsystems_file):
         ssl = subsystems_file.split(os.path.sep)
@@ -216,6 +225,15 @@ def read_the_data(sequence_type, datadir, sslevel='subsystems_norm_ss.tsv.gz', t
     :param taxa: taxonomy level to read
     :return: two dataframes, data and metadata
     """
+
+    if sequence_type.lower() == 'mgi':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI'
+    elif sequence_type.lower() == 'minion':
+        sequence_type = 'MinION'
+        sequence_dir = 'MinION'
+    else:
+        raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
     ss_df = read_subsystems(
         os.path.join(datadir, sequence_type, "FunctionalAnalysis", "subsystems", sslevel), sequence_type)
