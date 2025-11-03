@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Robert
+    name-particle: Robert
+    family-names: Edwards
+    email: raedwards@gmail.com
+    affiliation: Flinders University
+    orcid: 'https://orcid.org/0000-0001-8383-8949'
+title: "CF_Data_Analysis"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-11-03
+url: "https://github.com/linsalrob/CF_Data_Analysis"
+abstract: >-
+  Data supporting the analysis of CF by Edwards _et al.,_.
+keywords:
+  - metagenome
+  - cystic fibrosis
+  - DNA sequencing
+  - microbiome
+  - bacteria
+  - virus
+license: MIT
