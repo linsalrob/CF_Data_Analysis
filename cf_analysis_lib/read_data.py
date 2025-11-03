@@ -32,7 +32,14 @@ corrections = {
         '1316979_20171215_S': '1651490_20171215_S',
         '1598281_20180508_S': '1588281_20180508_S',
         '698917_20190119_S': '698917_20180119_S'
-        }
+        },
+    "promethion" : {
+        '1112926_20171212_S': '1447437_20171212_S',
+        '1255498_20171212_S': '1590009_20171212_S',
+        '1316979_20171215_S': '1651490_20171215_S',
+        '1598281_20180508_S': '1588281_20180508_S',
+        '698917_20190119_S': '698917_20180119_S'
+    }
 }
 
 
@@ -47,6 +54,9 @@ def read_taxonomy(datadir, sequence_type, taxonomy, all_taxa=False, rawdata=Fals
     elif sequence_type.lower() == 'minion':
         sequence_type = 'MinION'
         sequence_dir = 'MinION'
+    elif sequence_type.lower() == 'promethion':
+        sequence_type = 'PromethION'
+        sequence_dir = 'PromethION'
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
@@ -62,7 +72,9 @@ def read_taxonomy(datadir, sequence_type, taxonomy, all_taxa=False, rawdata=Fals
     df = df[~df['taxonomy'].str.endswith(f'{taxonomy[0]}__')]
     df = df[~df['taxonomy'].str.endswith(';;')]
     df = df.set_index('taxonomy')
-    df = df.rename(columns=corrections[sequence_type.lower()])
+    for c in df.columns:
+        if c in corrections[sequence_type.lower()]:
+            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
     df.index = df.index.str.replace(f'{taxonomy[0]}__', '').str.replace('Candidatus ', '')
     df.index = df.index.str.split(';').str[-1]
 
@@ -80,6 +92,8 @@ def read_metadata(datadir, sequence_type, categorise=False, verbose=False):
         sequencing = ['MinION']
     elif sequence_type.lower() == 'mgi_minion':
         sequencing = ['MGI', 'MinION']
+    elif sequence_type.lower() == 'promethion':
+        sequencing = ['PromethION']
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
@@ -97,7 +111,7 @@ def read_metadata(datadir, sequence_type, categorise=False, verbose=False):
         for seq_type in sequencing:
             s = metadata.loc[ix, seq_type]
             if s in corrections[seq_type.lower()]:
-                metadata.loc[ix, seq_type] = corrections[seq_type.lower()][s]
+                raise(ValueError(f"Sample ID {s} in metadata is outdated. This should have been corrected to {corrections[seq_type.lower()][s]}"))
 
     # impute missing values by most frequent (i.e. mode)
     # imputer = SimpleImputer(strategy='most_frequent')
@@ -127,6 +141,9 @@ def read_subsystems(subsystems_file, sequence_type):
     elif sequence_type.lower() == 'minion':
         sequence_type = 'MinION'
         sequence_dir = 'MinION'
+    elif sequence_type.lower() == 'promethion':
+        sequence_type = 'PromethION'
+        sequence_dir = 'PromethION'
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
@@ -145,7 +162,9 @@ def read_subsystems(subsystems_file, sequence_type):
         df = pd.read_csv(subsystems_file, sep='\t', compression='gzip', index_col=0)
     else:
         df = pd.read_csv(subsystems_file, sep='\t', index_col=0)
-    df = df.rename(columns=corrections[sequence_type.lower()])
+    for c in df.columns:
+        if c in corrections[sequence_type.lower()]:
+            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
     return df
 
 
@@ -232,6 +251,9 @@ def read_the_data(sequence_type, datadir, sslevel='subsystems_norm_ss.tsv.gz', t
     elif sequence_type.lower() == 'minion':
         sequence_type = 'MinION'
         sequence_dir = 'MinION'
+    elif sequence_type.lower() == 'promethion':
+        sequence_type = 'PromethION'
+        sequence_dir = 'PromethION'
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
