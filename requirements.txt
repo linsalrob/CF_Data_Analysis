@@ -1,0 +1,15 @@
+IPython
+adjustText
+community
+python-docx
+matplotlib
+networkx
+numpy
+pandas
+scipy
+seaborn
+shap
+scikit-bio
+scikit-learn
+statsmodels
+tensorflow
