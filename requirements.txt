@@ -5,6 +5,7 @@ python-docx
 matplotlib
 networkx
 numpy
+openpyxl
 pandas
 scipy
 seaborn
