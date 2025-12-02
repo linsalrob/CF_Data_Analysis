@@ -9,6 +9,8 @@ import matplotlib.colors as mcolors
 import pandas as pd
 import seaborn as sns
 
+from PIL import Image
+
 from sklearn.preprocessing import MinMaxScaler, OrdinalEncoder
 from sklearn.metrics import mean_squared_error, roc_curve, auc
 
@@ -348,3 +350,16 @@ def plot_importance_abundance_roc(merged_df, tfdf, intcol, intcol_title, model, 
     plt.tight_layout(rect=[0, 0, 1, 0.9])
 
     return fig, axes
+
+def create_thumbnail(imagefile, source_dir="final_images", thumbnail_dir="thumbnail_images", verbose=False):
+    # Create a thumbnail image for the markdown
+    im = Image.open(os.path.join(source_dir, imagefile))
+    thumb = im.copy()
+    thumb.thumbnail((150, 150))   # (width, height)
+    
+    # Save the thumbnail
+    thumb.save(os.path.join(thumbnail_dir, imagefile))
+    if verbose:
+        imf = os.path.join(thumbnail_dir, imagefile)
+        print(f"Thumbnail saved:\n![Thumbnail]({imf})\n", file=sys.stderr)
+
