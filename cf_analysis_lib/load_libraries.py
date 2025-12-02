@@ -26,6 +26,8 @@ from collections import Counter, defaultdict
 import networkx as nx
 import community
 
+from PIL import Image
+
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.interpolate import griddata, Rbf, RBFInterpolator
 from scipy.stats import linregress, ttest_ind, mannwhitneyu
