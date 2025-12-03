@@ -26,8 +26,8 @@ def plot_feature_importance(ax, feature_importances_sorted, title):
     # Create dotted lines and circles for each feature
     for feature in feature_importances_sorted.index[::-1]:
         importance = feature_importances_sorted.loc[feature, 'importance']
+        ax.plot([0, importance], [feature, feature], linestyle='dotted', marker='None', markersize=5, c='blue')
         ax.plot([importance], [feature], linestyle='dotted', marker='o', markersize=5, c='blue')
-        ax.plot([0, importance], [feature, feature], linestyle='dotted', marker='None', markersize=5, c='lightblue')
 
     ax.set_xlabel("Importance")
     ax.set_ylabel("")
@@ -53,9 +53,8 @@ def plot_feature_abundance(ax, feature_df, intcol, title):
 
     melted_df = pd.melt(scaled_df, id_vars=[intcol], var_name='Feature', value_name='Value')
 
-    sns.boxplot(data=melted_df, x='Value', y='Feature', hue=intcol, fill=False, legend=False, color='k', fliersize=0,
-                ax=ax)
-    sns.stripplot(data=melted_df, x='Value', y='Feature', hue=intcol, jitter=True, alpha=0.5, dodge=True, ax=ax)
+    sns.stripplot(data=melted_df, x='Value', y='Feature', hue=intcol, jitter=True, alpha=0.5, dodge=True, ax=ax, palette="coolwarm")
+    sns.boxplot(data=melted_df, x='Value', y='Feature', hue=intcol, fill=False, legend=False, color='k', fliersize=0, ax=ax)
 
     ax.set_title(title)
     ax.set_xlabel('Normalised Abundance')
@@ -254,7 +253,7 @@ def old_plot_roc_curves(model, X, y, importances, met='classifier', intcol_title
     plt.legend(loc="lower right")
     return plt
 
-def plot_roc_curves(model, X, y, importances, met='classifier', intcol_title="", ax=None, cmap='mako', verbose=False):
+def plot_roc_curves(model, X, y, importances, met='classifier', intcol_title="", ax=None, cmap='tab10', verbose=False):
     """
     Plot the ROC curves for the model
     :param model: The machine learning model, hopefully a classifier
@@ -275,7 +274,7 @@ def plot_roc_curves(model, X, y, importances, met='classifier', intcol_title="",
     roc_auc = auc(fpr, tpr)
 
     ax.plot(fpr, tpr, lw=2, label=f'Overall\n(area = {roc_auc:.2f})')
-    colors = sns.color_palette("mako", n_colors=5)
+    colors = sns.color_palette(cmap, n_colors=5)
 
     n = 5
     for i, clust in enumerate(importances[:n].index):
