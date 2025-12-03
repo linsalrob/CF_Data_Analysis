@@ -11,7 +11,7 @@ from .pathogens import BacterialPathogens
 from .random_forests import random_forest_classifier, random_forest_regression, gb_classifier, gb_regressor, gb_classifier_model, gb_regressor_model
 from .plot_figures import plot_pca, plot_feature_importance, plot_feature_abundance, plot_top_features
 from .plot_figures import plot_abundance_stripplot, create_custom_labels, plot_one_top_feature, plot_roc_curves
-from .plot_figures import plot_importance_abundance_roc
+from .plot_figures import plot_importance_abundance_roc, create_thumbnail
 from .export_to_docx import pd2docx
 from .worldwide_samples import worldwide_samples, read_worldwide_taxonomy, read_worldwide_subsystems, read_worldwide_metadata, read_worldwide_data
 from .green_box import green_box, show_green
@@ -25,7 +25,7 @@ __all__ = ['read_taxonomy', 'read_metadata', 'corrections', 'read_subsystems',
            'gb_classifier_model', 'gb_regressor_model',
            'plot_pca', 'plot_feature_importance', 'plot_feature_abundance', 'plot_top_features', 'plot_abundance_stripplot',
            'plot_one_top_feature', 'plot_roc_curves', 'plot_importance_abundance_roc',
-           'pd2docx', 'create_custom_labels',
+           'pd2docx', 'create_custom_labels', 'create_thumbnail',
            'worldwide_samples', 'read_worldwide_taxonomy', 'read_worldwide_subsystems', 'read_worldwide_metadata', 'read_worldwide_data',
            'int2roman'
         ]
