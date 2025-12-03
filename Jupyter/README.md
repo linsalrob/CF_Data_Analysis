@@ -20,7 +20,7 @@ Thumbnail | Figure Number | Notebook
 ![Fig. 5](thumbnail_images/fig5.png)   | 5  | [WorldWide CF Machine learning data](WorldWideML.ipynb)
 <img src="thumbnail_images/No_Image_Available.jpg" width="150" height="150" /> | 6  | This figure was created by an artist.
 ![Fig. S1](thumbnail_images/figS1a.png) | S1 | [MGI vs Nanopore](MGI_Promethion_Minion.ipynb)
-![Fig. S2](thumbnail_images/figS2.png) | S2 | [MAG Metadata](MAG Metadata.ipynb)
+![Fig. S2](thumbnail_images/figS2.png) | S2 | [MAG Metadata](MAG_Metadata.ipynb)
 ![Fig. S3](thumbnail_images/figS3.png) | S3 | [Medications Score and Health Metrics](HealthPCA.ipynb)
 ![Fig. S4](thumbnail_images/figS4.png) | S4 | [PCoA of the CPAF coloured by health measure](HealthPCA.ipynb)
 ![Fig. S5](thumbnail_images/figS5.png) | S5 | [Medications Score and Health Metrics](HealthPCA.ipynb)
