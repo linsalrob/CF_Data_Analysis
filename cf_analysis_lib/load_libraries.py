@@ -9,6 +9,7 @@ import seaborn as sns
 import json
 import random
 
+import matplotlib as mpl
 from matplotlib import animation
 from matplotlib.cm import ScalarMappable
 from matplotlib.collections import PatchCollection
@@ -19,6 +20,12 @@ import matplotlib.colors as mcolors
 import matplotlib.dates as mdates
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
+
+# note that by default matplotlib encodes the text in SVG as glyphs. This line makes the text editable as text
+mpl.rcParams['svg.fonttype'] = 'none'
+mpl.rcParams['font.family'] = 'sans-serif'
+mpl.rcParams['font.sans-serif'] = ['Arial', 'Helvetica', 'DejaVu Sans']
+
 
 from itertools import cycle
 from collections import Counter, defaultdict
