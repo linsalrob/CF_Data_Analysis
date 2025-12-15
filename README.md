@@ -1,8 +1,7 @@
 [![Edwards Lab](https://img.shields.io/badge/Bioinformatics-EdwardsLab-03A9F4)](https://edwards.flinders.edu.au/)
-[![DOI](https://zenodo.org/badge/1088518322.svg)](https://doi.org/10.5281/zenodo.17511308)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17934084.svg)](https://doi.org/10.5281/zenodo.17934084)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub language count](https://img.shields.io/github/languages/count/linsalrob/PhiSpy)
-
 
 # CF Airway Metagenome Analysis
 
