@@ -4,7 +4,7 @@ Column	Column header	Column meaning	Number of unique entries	Type of data	Groupi
 2	PromethION	MinION sequence ID	10	Text
 3	MGI	MGI Sequence ID	127	Text
 4	pwCF_ID	ID of the person	64	Text
-5	Sample date	Sample Date (MM/DD/YYYY)	75	Date
+5	Days Since First Sample	Number of days since the first sample in the study was collected	75	Numeric
 6	IP vs OP	In patient vs. outpatient	2	Categorical
 7	Hospital	"Which hospital did the sample come from, RAH or WCH?"	2	Categorical
 8	Room	Which room in the hospital did the sample come from?	59	Text
