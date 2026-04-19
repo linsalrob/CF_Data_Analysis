@@ -98,6 +98,25 @@ and the software:
 
 ---
 
+## Incorrect file names
+
+In a very early release of the data, some of the files were incorrectly named. We believe that we have corrected all instances of these names, but we do very occassionally find one of the remnants creep in. This table summarises the previous incorrect name and the correct name that we use throughout.
+
+| Incorrect Name     | Corrected Name     |
+| ------------------ | ------------------ |
+| 1112926_20171212_S | 1447437_20171212_S |
+| 1128691_20170206_S | 1128691_20171206_S |
+| 1255498_20171212_S | 1590009_20171212_S |
+| 1316979_20171215_S | 1651490_20171215_S |
+| 1598281_20180508_S | 1588281_20180508_S |
+| 1723809_20180227_S | 1085876_20180227_S |
+| 649354_20170206_S  | 639354_20171206_S  |
+| 652927_20180226_S  | 715927_20180226_S  |
+| 658355_20180301_S  | 658355_20180327_S  |
+| 777851_20170918_S  | 778851_20170918_S  |
+| 788707_20181126_S  | 788707_20181129_S  |
+| 698917_20190119_S  | 698917_20180119_S  |
+
 ## License
 
 This repository is released under the **MIT License**.
