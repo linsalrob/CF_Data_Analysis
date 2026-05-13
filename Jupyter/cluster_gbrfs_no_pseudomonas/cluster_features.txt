@@ -1,0 +1,450 @@
+--- COPF 1 : Length 4 ---
+['Resistance to Daptomycin', 'Bacitracin resistance', 'VraTSR and LiaFSR three-component regulatory systems', 'CtsR and MscAB regulation of protein degradation']
+
+--- COPF 2 : Length 7 ---
+['tRNA thiolation', 'Isoprenoid Biosynthesis: Interconversions', 'Tagatose utilization', 'ATP-dependent Nuclease', 'Damaged nicotinamide nucleotide NAD(P)HX repair', 'Paenibacillaceae', 'Ferrous iron transporter EfeUOB, low-pH-induced']
+
+--- COPF 3 : Length 7 ---
+['Bacterial checkpoint-control-related cluster', 'Cadmium resistance', 'Pseudoalteromonadaceae', 'N-acetylneuraminate utilization', 'tRNA aminoacylation, Cys', 'Mevalonate metabolic pathway', 'tRNA aminoacylation, Asp']
+
+--- COPF 4 : Length 4 ---
+['Twin-arginine translocation system', 'SecY2-SecA2 Specialized Transport System', 'Folate Biosynthesis', 'CoA disulfide thiol-disulfide redox system']
+
+--- COPF 5 : Length 3 ---
+['Type I restriction-modification systems', 'Polyamine Metabolism', 'Fermentations: Lactate']
+
+--- COPF 6 : Length 4 ---
+['DNA repair, bacterial MutHLS system', '5-methylaminomethyl-2-thiouridine', 'IMP and Xanthine conversion to XMP and GMP module', 'tRNA aminoacylation, Asn']
+
+--- COPF 7 : Length 7 ---
+['Resistance to Triclosan', 'Enoyl-[ACP] reductases disambiguation', 'Fatty Acid Biosynthesis cluster', 'tRNA aminoacylation, Met', 'tRNA aminoacylation, Arg', 'Undecaprenyl-diphosphatases', 'Lactose utilization']
+
+--- COPF 8 : Length 6 ---
+['RNA pseudouridine synthases', 'Thiamin, thiazole, hydroxymethylpyrimidine salvage and uptake', 'Universal GTPases', 'Macrolides, lincosamides, streptogramins, ketolides, oxazolidinones (MLSKO) resistance: ribosomal protection', 'DNA internalization-related cluster', 'Peptide methionine sulfoxide reductase']
+
+--- COPF 9 : Length 4 ---
+['Magnesium transport', 'Sex pheromones in Enterococcus faecalis and other Firmicutes', 'Ribonuclease J family', 'Galactose utilization']
+
+--- COPF 10 : Length 10 ---
+['HPr catabolite repression system', 'Fatty Acid Biosynthesis FASII', 'Control of cell elongation - division cycle in Bacilli', 'D-alanylation of teichoic acid', 'Stress response and cell wall lysis cluster', 'Streptococcaceae', 'EcsAB transporter affecting expression and secretion of secretory preproteins', 'Late competence', 'BarA-UvrY(SirA) two-component regulatory system', 'L-serine dehydratase subunits']
+
+--- COPF 11 : Length 5 ---
+['BOX elements in Streptococci', 'PEB1, the major cell-binding factor of Campylobacter jejuni', 'Programmed cell death toxin-antitoxin PezAT', 'Glutathione: Biosynthesis and gamma-glutamyl cycle', 'Aminoglycoside modifying enzymes: O-nucleotidyltransferases']
+
+--- COPF 12 : Length 8 ---
+['2-O-alpha-mannosyl-D-glycerate utilization', 'Macrolides, lincosamides, streptogramins, ketolides, oxazolidinones (MLSKO) resistance: efflux systems', 'ATP-dependent RNA helicases, bacterial', 'Efflux ABC transporters BmrCD and LmrCD involved in multidrug resistance', 'Glycyl-tRNA synthetase', 'Efflux ABC transporter MdlAB', 'Glutathione: Redox cycle', 'Fatty acid synthesis']
+
+--- COPF 13 : Length 7 ---
+['Ribosome activity modulation', 'Fermentations: Mixed acid', 'Cell envelope-associated LytR-CpsA-Psr transcriptional attenuators', 'Purine nucleotide synthesis regulator', 'Threonine anaerobic catabolism gene cluster', 'Threonine synthase cluster', 'Pyruvate formate-lyase cluster with possible role in choline utilization']
+
+--- COPF 14 : Length 2 ---
+['GMP synthase', 'Proline Synthesis']
+
+--- COPF 15 : Length 3 ---
+['Pyruvate formate-lyase cluster', 'Hyperosmotic potassium uptake', 'tRNA aminoacylation, Leu']
+
+--- COPF 16 : Length 5 ---
+['Biogenesis of c-type cytochromes', 'Methylenetetrahydrofolate reductase', 'Cardiolipin biosynthesis', 'S-Adenosyl-L-homocysteine recycling', 'Cyanate hydrolysis']
+
+--- COPF 17 : Length 5 ---
+['CMP-legionaminic acid synthesis', 'NAD and NADP cofactor biosynthesis bacterial', 'NAD and NADP cofactor biosynthesis global', 'Rcn nickel and cobalt homeostasis system', 'tRNA aminoacylation, Ser']
+
+--- COPF 18 : Length 5 ---
+['Lysine DAP biosynthetic pathway', 'Lysine leader peptide', 'Phenylalanine and Tyrosine synthesis 1', 'Diaminopimelate Synthesis ', 'DeNovo Purine Biosynthesis']
+
+--- COPF 19 : Length 2 ---
+['DNA repair, bacterial DinG and relatives', 'High affinity phosphate transporter and control of PHO regulon']
+
+--- COPF 20 : Length 3 ---
+['Coenzyme A', 'Coenzyme A -- gjo', 'Chorismate Synthesis']
+
+--- COPF 21 : Length 4 ---
+['Trk and Ktr potassium uptake systems', 'Tryptophan synthesis', 'Thiamin, hydroxymethylpyrimidine selected transporters', 'Branched-Chain Amino Acid Biosynthesis']
+
+--- COPF 22 : Length 3 ---
+['tRNA aminoacylation, Phe', 'Folate biosynthesis cluster', 'DNA repair, bacterial RecBCD pathway']
+
+--- COPF 23 : Length 6 ---
+['Sucrose to levan conversions', 'Threonylcarbamoyladenosine', 'Antibiotic targets in transcription', 'DNA repair system including RecA, MutS and a hypothetical protein', 'tRNA aminoacylation, Gly', 'Cell division cluster']
+
+--- COPF 24 : Length 3 ---
+['Nudix proteins (nucleoside triphosphate hydrolases)', 'Chaperones GroEL GroES and Thermosome', 'Translation elongation factor G family']
+
+--- COPF 25 : Length 7 ---
+['Biosynthesis of Arabinogalactan in Mycobacteria', 'Repair of Iron Centers', 'Fusidic acid resistance', 'Cell division initiation related cluster', 'RecA and RecX', 'DNA repair, bacterial', 'DNA Repair Base Excision']
+
+--- COPF 26 : Length 8 ---
+['rRNA modification related cluster including tlyA', 'Fe-S cluster assembly', 'Translation termination factors, bacterial', 'Aspartate to Threonine Module', 'Streptococcal Hyaluronic Acid Capsule', 'RNA polymerase, bacterial', 'Ribosome LSU, bacterial', 'Sulfoquinovose biosynthesis cluster']
+
+--- COPF 27 : Length 4 ---
+['Glycerolipid and Glycerophospholipid Metabolism in Bacteria', 'tRNA aminoacylation, Pro', 'Copper homeostasis: copper tolerance', 'Riboflavin, FMN and FAD biosynthesis in Archaea']
+
+--- COPF 28 : Length 4 ---
+['Two cell division clusters relating to chromosome partitioning', 'A Hypothetical Protein Related to Proline Metabolism', 'Antibiotic targets in cell wall biosynthesis', 'Dpp dipeptide ABC transport system']
+
+--- COPF 29 : Length 3 ---
+['tRNA aminoacylation, Ala', 'Mupirocin resistance', 'tRNA aminoacylation, Ile']
+
+--- COPF 30 : Length 3 ---
+['DAP (1,3-diaminopropane) production', 'dTDP-rhamnose synthesis', 'dTDP-rhamnose synthesis -- gjo']
+
+--- COPF 31 : Length 6 ---
+['Cluster containing Glutathione synthetase', 'Glycolysis and Gluconeogenesis, including Archaeal enzymes', 'Heat shock dnaK gene cluster extended', 'Ribosomal proteins, single-copy', 'Colicin V and Bacteriocin Production Cluster', 'Antibiotic targets in protein synthesis']
+
+--- COPF 32 : Length 5 ---
+['Translation initiation factors, bacterial', 'Ribonuclease H', 'Aspartate to Homoserine module', 'RNA processing and degradation, bacterial', 'tRNA aminoacylation, Trp']
+
+--- COPF 33 : Length 2 ---
+['Iron Scavenging cluster in Thermus', 'Molybdenum cofactor biosynthesis']
+
+--- COPF 34 : Length 9 ---
+['3-amino-5-hydroxybenzoic Acid Synthesis', 'Actinobacterial signal transduction system MtrAB-LpqB', 'tRNA nucleotidyltransferase', 'Diphtheria toxin', 'Widespread colonization island', 'Mycobacterial heme acquisition system', 'Twin-arginine translocation system related cluster', 'Glycomycetaceae', "Protein-O-mannosyltransferase and 16S rRNA (cytidine(1402)-2'-O)-methyltransferase cluster"]
+
+--- COPF 35 : Length 10 ---
+['Alkane synthesis in bacteria 2', 'Mycobacterial HadABC proteins ((3R)-hydroxyacyl-ACP dehydrates of FASII)', 'Glycerol fermentation to 1,3-propanediol', 'Glutathione analogs: mycothiol', "N,N'-diacetylbacillosamine", 'Micrococcaceae', 'Legionellaceae', 'Treboniaceae', 'Head-to-head olefinic hydrocarbon biosynthesis', 'Possible stress related actinobacterial cluster']
+
+--- COPF 36 : Length 8 ---
+['Actinopolymorphaceae', 'Sulfur metabolism related cluster', 'Osmoregulation', 'Francisellaceae', 'Acyl carrier protein', 'Synechococcaceae', 'DNA repair, bacterial RecFOR pathway', 'Syntrophaceae']
+
+--- COPF 37 : Length 6 ---
+['Antibiotic targets in metabolic pathways', 'dTDP-3-acetamido-3,6-dideoxy-alpha-D-galactose synthesis', 'DNA repair, bacterial UvrD and related helicases', 'Gram-negative cluster', 'Signal peptidase', 'Mycobacterial lipoproteins (LPR group)']
+
+--- COPF 38 : Length 3 ---
+['Nonmevalonate Branch of Isoprenoid Biosynthesis', 'Nucleoside triphosphate pyrophosphohydrolase MazG', 'Lipopolysaccharide-related cluster in Alphaproteobacteria']
+
+--- COPF 39 : Length 4 ---
+['tRNA aminoacylation, Lys', 'Glutamine synthetases', 'Cell division related cluster', 'RuvABC plus a hypothetical']
+
+--- COPF 40 : Length 3 ---
+['Na(+) H(+) antiporter', 'Alginate biosynthesis', 'GDP-fucose to mannose-1P module']
+
+--- COPF 41 : Length 4 ---
+['Acyl-CoA thioesterase II', 'Siderophore assembly kit', 'Quinone oxidoreductase family', 'Homoprotocatechuate degradative cluster']
+
+--- COPF 42 : Length 9 ---
+['Micromonosporaceae', 'Nocardioidaceae', 'Streptomycetaceae', 'Microbacteriaceae', 'Frankiaceae', 'Cluster related to PAS - para-aminosalicylic acid resistance', 'Pseudonocardiaceae', 'Nocardiopsaceae', 'Multidrug resistance RND efflux system MexEFOprN']
+
+--- COPF 43 : Length 4 ---
+['tRNA aminoacylation, Val', 'Glycolysis and Gluconeogenesis', 'Possible new toxin-antitoxin system including DivIC', 'Bacterial cell division related cluster 2']
+
+--- COPF 44 : Length 3 ---
+['Pentose phosphate pathway', 'Thermomonosporaceae', 'Entner-Doudoroff Pathway']
+
+--- COPF 45 : Length 8 ---
+['Cellulomonadaceae', 'Benzoyl-CoA pathway of anaerobic aromatic metabolism', 'Promicromonosporaceae', 'Streptosporangiaceae', 'Intrasporangiaceae', 'Bogoriellaceae', 'Riboflavin, FMN and FAD metabolism with fusion events', 'Jiangellaceae']
+
+--- COPF 46 : Length 4 ---
+['FtsEX cell-division-associated signaling system', 'Programmed frameshift', 'Quinolone (Fluoroquinolone) resistance via Pentapeptide repeat proteins', 'Tripartite efflux system (of RND type) associated with Geranylgeranyl-PP synthase']
+
+--- COPF 47 : Length 6 ---
+['Peptidase clustering with DAP', 'Antibiotic targets in DNA processing', 'DNA processing cluster', 'Calvin-Benson cycle', 'DNA topoisomerases, Type II, ATP-dependent', 'De Novo Pyrimidine Synthesis']
+
+--- COPF 48 : Length 6 ---
+['Replication-associated recombination protein RarA', 'Cluster related to 2-thiouridine modification of tRNAs', 'YrdC-YciO-Sua5 and associated protein families', 'Amino acid racemase', 'tRNA aminoacylation, His', 'Mechanisms of PAS resistance']
+
+--- COPF 49 : Length 9 ---
+['Cyanobacterial bypass in the TCA', 'Reyranellaceae', 'Sigma54-dependent transcription related gene cluster', 'Nocardiaceae', 'Fermentibacteraceae', 'Brevibacteriaceae', 'Dermatophilaceae', 'Rut pathway of pyrimidine degradation', 'Nakamurellaceae']
+
+--- COPF 50 : Length 7 ---
+['alpha-glucoside ABC transporter', 'Citrate lyase', 'Eubacteriales Family XII. Incertae Sedis', 'Thermovirgaceae', 'Aerococcaceae', 'Syntrophomonadaceae', 'Symbiobacteriaceae']
+
+--- COPF 51 : Length 20 ---
+['Desulfoplanaceae', 'Desulfonauticaceae', 'Desulfitobacteriaceae', 'Bacillales Family X. Incertae Sedis', 'Homogentisate pathway', 'Cellulosilyticaceae', 'Natranaerofabaceae', 'Heliobacteriaceae', 'Segniliparaceae', 'Lewinellaceae', 'Desertifilaceae', 'D-arabinitol utilization', 'Calditrichaceae', 'Tepidimicrobiaceae', 'Acidaminobacteraceae', 'MazEF toxin-antitoxing (programmed cell death) system', 'Oxaloacetate decarboxylase Na-pump', 'Woeseiaceae', 'Ketobacteraceae', 'Opitutaceae']
+
+--- COPF 52 : Length 10 ---
+['Natronincolaceae', 'Desulfuribacillaceae', 'Sporolactobacillaceae', 'L-ascorbate utilization (and related gene clusters)', 'Enterococcaceae', 'Pseudobacteriovoracaceae', 'Hyellaceae', 'Carnobacteriaceae', 'Turicibacteraceae', 'Thermoactinomycetaceae']
+
+--- COPF 53 : Length 18 ---
+['Xylanivirgaceae', 'Aphanothecaceae', 'DevBCA efflux pump transporter (of ABC type) cyanobacterial', 'Ilumatobacteraceae', 'Coenzyme B synthesis', 'Zooshikellaceae', 'Aminiphilaceae', 'Thermodesulfovibrionaceae', 'Bacillus cannibalism system', 'Ferrimonadaceae', 'Symphyonemataceae', 'Pontiellaceae', 'Nautiliaceae', 'Bryobacteraceae', 'Acaryochloridaceae', 'Desulfolunaceae', 'Desulfarculaceae', 'Magnetomoraceae']
+
+--- COPF 54 : Length 12 ---
+['Haloplasmataceae', 'Spiroplasmataceae', 'Halothermotrichaceae', 'Halobacteroidaceae', 'Roseivirgaceae', 'Sulfurospirillaceae', 'Campylobacteraceae', 'Mycoplasmataceae', 'Cardiobacteriaceae', 'Thermodesulfobacteriaceae', 'Elusimicrobiaceae', 'Entomoplasmataceae']
+
+--- COPF 55 : Length 18 ---
+['Ozemobacteraceae', 'Babeliaceae', 'Geitlerinemataceae', '4-hydroxybenzoyl-CoA reductase', 'Phenol hydroxylase', 'Feifaniaceae', 'Mycobacterial cell wall virulence lipid phthiocerol dimycocerosate (PDIM)', 'Phaeocystidibacteraceae', 'Chlorosome', 'Methanofuran biosynthesis', 'Salisaetaceae', 'Smithellaceae', 'Oceanipulchritudinaceae', 'Betaine lipids in bactera', 'Sporanaerobacteraceae', 'Iron acquisition in Streptococcus', 'Hydroxyaromatic decarboxylase family', 'Ethanolamine utilization']
+
+--- COPF 56 : Length 2 ---
+['Toxin-Antitoxin system HigAB', 'One-carbon metabolism by tetrahydropterines']
+
+--- COPF 57 : Length 26 ---
+['Hydrogenimonadaceae', 'Polarisedimenticolaceae', 'Selenoprotein O', 'Coleofasciculaceae', 'Salibacteraceae', 'Halobacteriovoraceae', 'Fe(III) respiration - Shewanella type', 'Paraconexibacteraceae', 'Ostreibacteriaceae', 'Comchoanobacteraceae', 'Eremiobacteraceae', 'Thermodesulfatatoraceae', 'Midichloriaceae', 'Resistance to Vancomycin and Teicoplanin', 'Sandaracinaceae', 'Deferrivibrionaceae', 'Methylohalomonadaceae', 'Uabimicrobiaceae', 'Gallic acid utilization', 'Glutathionylspermidine and Trypanothione', 'Silvanigrellaceae', 'Moduliflexaceae', 'Thermosynechococcaceae', 'Polysulfide reductase EC 1.12.98.4 and Thiosulfate reductase', 'Desulfomonilaceae', 'Aminoglycoside modifying enzymes: O-phosphotransferases']
+
+--- COPF 58 : Length 8 ---
+['S-methylmethionine', 'Patulibacteraceae', 'Pasteuriaceae', 'Sporulation proteins SigEG cluster', 'PE multigene family in Mycobacterium tuberculosis complex (MTBC)', 'Gloeobacteraceae', 'PPE multigene family in Mycobacterium tuberculosis complex (MTBC)', 'Magnetobacteriaceae']
+
+--- COPF 59 : Length 4 ---
+['Stringent Response, (p)ppGpp metabolism', 'V-Type ATP synthase', 'Sporulation-associated proteins with broader functions', 'D-tyrosyl-tRNA(Tyr) deacylase']
+
+--- COPF 60 : Length 4 ---
+['Glycogen metabolism', 'Ribosomal protein S5p acylation', 'Cell division related cluster including coaD', 'Type IV pilus']
+
+--- COPF 61 : Length 3 ---
+['Glutamate dehydrogenases', 'Purine catabolism in Bacillus subtilis', 'Arsenic resistance']
+
+--- COPF 62 : Length 7 ---
+['Universal stress protein family', 'HipAB system implicated in growth arrest, persistence and drug tolerance', 'Phd-Doc, YdcE-YdcD toxin-antitoxin (programmed cell death) systems', 'Methionine Salvage', 'Photosystem I', 'Moritellaceae', 'Polyunsaturated Fatty Acids synthesis']
+
+--- COPF 63 : Length 5 ---
+['Carbonic anhydrase', '2-aminophenol Metabolism', 'Periplasmic disulfide interchange', '2-phosphoglycolate salvage', 'Arginine decarboxylase and Agmatinase cluster']
+
+--- COPF 64 : Length 8 ---
+['Helicobacteraceae', 'Acholeplasmataceae', 'Sulfur transport related cluster', 'Sulfurtransferase and Ssec cluster', 'Thermoanaerobacterales Family III. Incertae Sedis', 'Filifactoraceae', 'Vallitaleaceae', 'Nicotinate catabolism, anaerobic']
+
+--- COPF 65 : Length 16 ---
+['Neisseriaceae', 'Dissulfurispiraceae', 'Ignatzschineriaceae', 'Mycoplasmoidaceae', 'Nitrospinaceae', 'Petrotogaceae', 'Thermodesulfobiaceae', 'Glycine reductase, sarcosine reductase and betaine reductase', 'Gemellaceae', 'ABC transporter of unknown substrate X', 'Anaerobic dimethyl sulfoxide reductase (EC 1.8.5.3)', 'HU-alpha and dsDNA mimic protein interaction', 'Pasteurellaceae', 'Sulfuricellaceae', 'Echinimonadaceae', 'Listeria surface proteins: Internalin-like proteins']
+
+--- COPF 66 : Length 9 ---
+['Fervidobacteriaceae', 'Thermincolaceae', 'Borreliaceae', 'Hfl operon', 'Salinicoccaceae', 'Abyssicoccaceae', 'Geothermincolaceae', 'Psittacicellaceae', 'Chlorophyll Degradation']
+
+--- COPF 67 : Length 16 ---
+['Glycerol utilization cluster', 'Desulforegulaceae', 'Aphanizomenonaceae', 'Aerosakkonemataceae', 'Neomegalonemataceae', 'Tetracycline resistance, all mechanisms', 'Xenococcaceae', 'Metamycoplasmataceae', 'O-methyl phosphoramidate modification in capsular polysaccharide', 'Hydrogenophilaceae', 'Syntrophotaleaceae', 'Natranaerobiaceae', 'Hyaluronate utilization', 'Desulfurisporaceae', 'Nanosyncoccacae', 'Mcinerneyibacteriaceae']
+
+--- COPF 68 : Length 15 ---
+['Zhaonellaceae', 'Anaerobic Oxidative Degradation of L-Ornithine', 'Rubritaleaceae', 'Nanosynbacteraceae', 'Nanoperiomorbaceae', 'Chloroflexaceae', 'F0F1-type ATP synthase', 'Selenomonadaceae', 'Parvicellaceae', 'Saccharimonadaceae', 'Microvenatoraceae', 'Izemoplasmataceae', 'Macromolecular synthesis operon', 'Kiritimatiellaceae', 'Cyclonatronaceae']
+
+--- COPF 69 : Length 23 ---
+['Gottschalkiaceae', 'Geoalkalibacteraceae', 'Flavobacteriaceae', 'AMP to 3-phosphoglycerate', 'Desulfatirhabdiaceae', 'Rubricoccaceae', 'Caldicoprobacteraceae', 'Sumerlaeaceae', 'Thermoflexaceae', 'Nanogingivalaceae', 'Thermotaleaceae', 'Blattabacteriaceae', 'DNA sulfur modification cluster', 'Absconditicoccaceae', 'Thermoanaerobaculaceae', 'Crenotrichaceae', 'Anaerohalosphaeraceae', 'Membrane bound hydrogenase Mbh', 'Endomicrobiaceae', 'Membrane bound hydrogenase Mbh -- gjo', 'Desulfosalsimonadaceae', 'Desulfosudaceae', 'Treponemataceae']
+
+--- COPF 70 : Length 41 ---
+['Terrimicrobiaceae', 'Siderophore Mycobactin', 'SpoVS protein family', 'Particulate methane monooxygenase (pMMO)', 'Outer membrane proteases (Omptins)', 'Sulfhydrogenase', 'Mycobacterial signal transduction system MprAB required for persistent infections', 'Vibrioferrin synthesis', 'Hyaluronic Acid-containing Cell Walls', 'Chromulinivoraceae', 'Lujinxingiaceae', 'Corynebacteriaceae', 'Energy-conserving hydrogenase (ferredoxin)', 'Caminicellaceae', 'Calderihabitantaceae', 'Yeguiaceae', 'Laspinemataceae', 'Tepidiformaceae', 'Chroococcidiopsidaceae', 'Halothecacae', 'Amoebophilaceae', 'Raineyaceae', 'Auribacteraceae', 'Caldisericaceae', 'Oculatellaceae', 'Dermocarpellaceae', 'Puniceispirillaceae', 'Vulgatibacteraceae', 'Scalinduaceae', 'Petrachlorosaceae', 'Prochlorococcaceae', 'Thermostichaceae', 'Azoamicaceae', 'Arenicellaceae', 'Litorivicinaceae', 'Resistance to Ethambutol', 'Aminobacteriaceae', 'Thiohalophilaceae', 'Salinarimonadaceae', 'Casimicrobiaceae', 'Verrucomicrobia subdivision 6']
+
+--- COPF 71 : Length 7 ---
+['Microscillaceae', 'Parilichlamydiaceae', 'Lactobacillaceae', 'Mycobacterial lipid and multidrug efflux system proteins MmpL, MmpS', 'Holophagaceae', 'Atribacteraceae', 'Bacteriocins in Lactobacilli']
+
+--- COPF 72 : Length 44 ---
+['ABC transporter tungstate (TC 3.A.1.6.2)', 'Lacipirellulaceae', 'Deferrisomataceae', 'Hapalosiphonaceae', 'Quorum-sensing related cluster', 'Prenylated indole derivatives in actinomycetes', 'Nodosilineaceae', 'Hydrogen-sensing hydrogenase system', 'Usitatibacteraceae', 'Sulphoglycolysis', 'Aquificaceae', 'Armatimonadaceae', 'Sox sulfur oxidation genes', 'Desulfovibrio high-molecular-weight cytochrome cluster', 'Chitobiose', 'G-protein-coupled receptor (GPCR) system in Actinobacteria', 'Sporulation proteins SpoVA cluster', 'Sirenicapillariaceae', 'Microcoleaceae', 'Chroococcaceae', 'Thermotomaculaceae', 'Trueperaceae', 'Methylothermaceae', 'Geminocystaceae', 'Clavichlamydiaceae', 'Aliterellaceae', 'Actinopolysporaceae', 'L-Amino acid oxidases: lysine-epsilon oxidase LodA', 'Lasso peptide maturation cluster', 'Baekduiaceae', 'Lawsonellaceae', 'Mycobacteriaceae', 'Prochlorotrichaceae', 'DNA phosphorothioation-dependent restriction system DptFGH', 'Termititenacaceae', 'Nitratiruptoraceae', 'Hydrogenedentaceae', 'Multiple Antibiotic Resistance MAR locus', 'Devosiaceae', 'Hyphomonadaceae', 'Bartonellaceae', 'Rhabdochlamydiaceae', 'RNA polymerase, archaeal', 'Desulfohalobiaceae']
+
+--- COPF 73 : Length 8 ---
+['Tetracycline resistance, ribosomal protection type', 'Microcystaceae', 'Kytococcaceae', 'Carnitine operon', 'Sporichthyaceae', 'Nitriliruptoraceae', 'Thermogemmatisporaceae', 'Kribbellaceae']
+
+--- COPF 74 : Length 46 ---
+['Rhodothalassiaceae', 'Pseudoxanthobacteraceae', 'Thiocyanate hydrolase', 'Salinibacteraceae', 'Lichenibacteriaceae', 'Gloeomargaritaceae', 'Magnetovibrionaceae', 'Rhodospirillaceae', 'Phage shock protein operon', 'Thalassobaculaceae', 'Kiloniellaceae', 'Isosphaeraceae', 'Breoghaniaceae', 'Blastochloridaceae', 'Tripartite multidrug efflux systems (of RND type) CmeABC and CmeDEF', 'Archangiaceae', 'Roseiarcaceae', 'Propylenellaceae', 'Acidobacteriaceae', 'Rhodovibrionaceae', 'Tepidamorphaceae', 'Alsobacteraceae', 'Amorphaceae', 'Ancalomicrobiaceae', 'Pseudohongiellaceae', 'Salinisphaeraceae', 'Aurantimonadaceae', 'D-altritol utilization', 'Geminicoccaceae', 'Cohaesibacteraceae', 'Manganitrophaceae', 'Brocadiaceae', 'Notoacmeibacteraceae', 'Phreatobacteraceae', 'Oligoflexaceae', 'Oceanibaculaceae', 'Kofleriaceae', 'Pyridoxin(Vitamin B6) Degradation Pathway', 'Capsulimonadaceae', 'Sox thiosulfate oxidation system', 'Gallaecimonadaceae', 'Reticulibacteraceae', 'Photosystem II', 'Plasmid replication', 'Afifellaceae', 'Respiratory complex I in plants (plastidial) and cyanobacteria']
+
+--- COPF 75 : Length 12 ---
+['RuBisCO operon', 'Sneathiellaceae', 'Zavarziniaceae', 'Polyangiaceae', 'Thiohalorhabdaceae', 'Thiohalomonadaceae', 'Kordiimonadaceae', 'Granulosicoccaceae', 'Parvularculaceae', 'Ectoine, hydroxyectoine uptake and catabolism', 'Boseaceae', 'Aggregatilineaceae']
+
+--- COPF 76 : Length 2 ---
+['Sporulation Cluster', 'Clostridiales Family XVII. Incertae Sedis']
+
+--- COPF 77 : Length 3 ---
+['Acetoin, butanediol metabolism', 'DNA repair, bacterial SbcCD exonuclease', 'Heme, hemin uptake and utilization systems in GramPositives']
+
+--- COPF 78 : Length 2 ---
+['Copper Transport System', 'tRNA aminoacylation, Tyr']
+
+--- COPF 79 : Length 14 ---
+['Poly-gamma-glutamate biosynthesis', 'Acetophenone carboxylase 1', 'Pumilibacteraceae', 'Trans-translation by stalled ribosomes', 'Chlamydiaceae', 'Desulfocucumaceae', 'Vicinamibacteraceae', 'Methylocystaceae', 'Rivulariaceae', 'Anaerobic toluene and ethylbenzene degradation', 'ABC transporter YxeMNO', 'Rhodobiaceae', 'Simkaniaceae', 'Thermomicrobiaceae']
+
+--- COPF 80 : Length 3 ---
+['Acetolactate synthase subunits', 'Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate', 'Sphaerobacteraceae']
+
+--- COPF 81 : Length 25 ---
+['Mangrovivirgaceae', 'Cyanothecaceae', 'Chlorogloeopsidaceae', 'Luteibaculaceae', 'Celerinatantimonadaceae', 'Tenuifilaceae', 'Monoglobaceae', 'Thermochlorobacteriaceae', 'Capillimicrobiaceae', 'Sodium-transporting ATPase', 'Cell invasion-related virulence operon MCE', 'Acanthopleuribacteraceae', 'Vallicoccaceae', 'Streptolysin S', 'Toxin-Antitoxin MT1', 'Vancomycin resistance, D-Ala-D-Ser, D-Ala-Lac ligases', 'DNA Helicase of Unknown Function', 'DNA recombination, archaeal', 'Motilibacteraceae', 'Oscillochloridaceae', 'Coenzyme F420-H2 dehydrogenase (methanophenazine)', 'Promineifilaceae', 'Dehalococcoidaceae', 'Mucispirillaceae', 'Desulfuromonadaceae']
+
+--- COPF 82 : Length 11 ---
+['Dermabacteraceae', 'Ruaniaceae', 'Jonesiaceae', 'Inositol catabolism', 'Beutenbergiaceae', 'Carbonactinosporaceae', 'Kineosporiaceae', 'Tsukamurellaceae', 'Merismopediaceae', 'Sigma54-dependent transcription related gene cluster 2', 'Lipid-linked oligosaccharide synthesis related cluster']
+
+--- COPF 83 : Length 2 ---
+['L-fucose utilization', 'L-fucose dissimilation cluster']
+
+--- COPF 84 : Length 16 ---
+['Sanguibacteraceae', 'Miltoncostaeaceae', 'ESAT-6 proteins secretion system in Mycobacteria (locus ESX-4)', 'Thiohalobacteraceae', 'Iron transport system including ABC transporter', 'Tropherymataceae', 'Iron(III) dicitrate transport system Fec', 'Limnochordaceae', 'Galactosamine Substituent of Arabinogalactan in Mycobacteria', 'Cell wall-associated cluster in Mycobacterium', 'Antricoccaceae', 'Phosphatidylinositol mannosides biosynthesis related cluster', 'Nanopelagicaceae', 'Actinomycetaceae', 'Cryptosporangiaceae', 'Acidothermaceae']
+
+--- COPF 85 : Length 12 ---
+['Cobalamin synthesis, Precorin-2 to Cob(II)yrinate a,c diamide, anaerobic', 'Antibiotic anticapsin - bacilysin', 'Immundisolibacteraceae', 'Chloroherpetonaceae', 'Porphyromonadaceae', 'Caedimonadaceae', 'Cobalamin synthesis', 'Catalimonadaceae', 'Flexibacteraceae', 'Fulvivirgaceae', 'Cobalamin synthesis from Cob(II)yrinate a,c diamide', 'Marinifilaceae']
+
+--- COPF 86 : Length 7 ---
+['Tichowtungiaceae', 'Chthonomonadaceae', 'Anaeroplasmataceae', 'Hydrogenothermaceae', 'Agrocinopine utilization', 'Thermosporotrichaceae', 'Bipolaricaulaceae']
+
+--- COPF 87 : Length 11 ---
+['An Arabinose Sensor', 'Egibacteraceae', 'Aminoglycoside modifying enzymes: N-acetyltransferases', 'Ignavibacteriaceae', 'Quorum sensing in Yersinia', 'Holosporaceae', 'Erythrobacteraceae', 'Succinivibrionaceae', 'Phototrophicaceae', 'DNA repair, bacterial UmuCD system', 'Bifidobacteriaceae']
+
+--- COPF 88 : Length 9 ---
+['Exosporium', 'Steroidobacteraceae', 'Macrolides, lincosamides, streptogramins, ketolides, oxazolidinones (MLSKO) resistance: enzymatic degradation', 'Maliibacteriaceae', 'Lentisphaeraceae', 'Heterocyst formation in cyanobacteria', 'Pelagicoccaceae', 'Ichthyobacteriaceae', 'Bacillibactin Siderophore']
+
+--- COPF 89 : Length 33 ---
+['Longimicrobiaceae', 'Abditibacteriaceae', 'Vecturitrichaceae', 'Wall polysaccharide pyruvylation', 'NADP-reducing [FeFe]-hydrogenase', 'Brevinemataceae', 'Autoinducer 2 (AI-2) transport and processing (lsrACDBFGE operon)', 'Methanogenesis', 'Schleiferiaceae', 'Sporulation proteins SpoIIIAA-SpoIIIAH', 'Sporulation gene orphans', 'Oceanococcaceae', 'Toluene 4-monooxygenase (T4MO)', 'Outer membrane porins in Mycobacteria', 'Sporulation Cluster III A', 'Aeolococcaceae', 'Rickettsiaceae', 'Vicingaceae', 'Paracaedibacteraceae', 'Peptoniphilaceae', 'Mycofactocin system cluster', 'Activation of fatty acids as acyl-adenylates cluster subgroup FadD10', 'Accessory colonization factor', 'Romeriaceae', 'Thermoflexibacteraceae', 'Forespore to mother cell channel', 'Coprobacillaceae', 'Carboxysome', 'Acutalibacteraceae', 'Mannosylglucosylglycerate synthesis', 'Clostridiales Family XVI. Incertae Sedis', 'Breznakiellaceae', 'ESAT-6 proteins secretion system in Mycobacteria (locus ESX-3)']
+
+--- COPF 90 : Length 11 ---
+['Persicobacteraceae', 'Sulfomarinibacteraceae', 'Bernardetiaceae', 'Desulfonatronovibrionaceae', 'Thiohalospiraceae', 'Magnetococcaceae', 'Thermoguttaceae', 'Mycosporine synthesis cluster', 'Planctomycetaceae', 'Hepatoplasmataceae', 'Chthoniobacteraceae']
+
+--- COPF 91 : Length 21 ---
+['Tepidibacteraceae', 'Dissulfuribacteraceae', 'Acidilutibacteraceae', 'Lutisporaceae', 'Caldicellulosiruptoraceae', 'Zymomonadaceae', 'Eubacteriaceae', 'Peptococcaceae', 'Aquicultoraceae', 'Tepidanaerobacteraceae', 'Defluviitaleaceae', 'Oligosphaeraceae', 'Thermodesulforhabdaceae', 'Jatrophihabitantaceae', 'Fastidiosibacteraceae', 'Propanediol utilization', 'Chitinivibrionaceae', 'Leptotrichiaceae', 'Fusobacteriaceae', 'Teichuronic acid biosynthesis', 'Thermosediminibacteraceae']
+
+--- COPF 92 : Length 11 ---
+['Tindalliaceae', 'Gracilibacteraceae', 'Koleobacteraceae', 'Spirochaetaceae', 'Hakubellaceae', 'Dictyoglomaceae', 'Desulfobacteriaceae', 'Sulfurovaceae', 'Anoxymicrobiaceae', 'Veillonellaceae', 'Mesoaciditogaceae']
+
+--- COPF 93 : Length 14 ---
+['Catenulisporaceae', 'L-2-amino-adipate to lysine module', 'Salsipaludibacteraceae', 'Pentalenolactone Biosynthesis and Resistance', 'Adiutricaceae', 'Desulfallaceae', 'Chrysiogenaceae', 'Nannocystaceae', 'Macrolides, lincosamides, streptogramins, ketolides, oxazolidinones (MLSKO) resistance: rRNA methylases', 'Limisphaeraceae', 'Inner membrane proteins of MarC family, not involved in antibiotic resistance', 'Thermosulfidibacteraceae', 'Desulfobulbaceae', 'Euzebyaceae']
+
+--- COPF 94 : Length 3 ---
+['Protein degradation', 'Predicted secretion system W clustering with cell division proteins', 'Ribosomal hibernation related cluster']
+
+--- COPF 95 : Length 13 ---
+['Peptoclostridiaceae', 'Thermoanaerobacterales Family IV. Incertae Sedis', 'Hujiaoplasmataceae', 'Acidaminococcaceae', 'Sedimentisphaeraceae', 'Thermohalobacteraceae', 'Tissierellaceae', 'Cerasicoccaceae', 'Coraliomargaritaceae', 'Deianiraeaceae', 'Entophysalidaceae', 'Lachnospiraceae', 'Bianqueaceae']
+
+--- COPF 96 : Length 3 ---
+['DNA repair, UvrABC system', 'Oscillospiraceae', 'Ribonucleotide reduction']
+
+--- COPF 97 : Length 2 ---
+['Translation elongation factors, bacterial', 'Transcription factors, cyanobacterial RpoD-like sigma factors']
+
+--- COPF 98 : Length 5 ---
+['Thermonemataceae', 'Sphaerochaetaceae', 'Deferribacteraceae', 'NhaA, NhaD and Sodium-dependent phosphate transporters', 'Thiazole.oxazole-modified microcins']
+
+--- COPF 99 : Length 16 ---
+['Geovibrionaceae', 'Cesiribacteraceae', 'Synergistaceae', 'Coat proteins CotJABC', 'Proteinivoraceae', 'Desulfitibacteraceae', 'Fructoselysine and glucoselysine', 'Erysipelotrichaceae', 'Brachyspiraceae', 'Anthocerotibacteraceae', 'Siderophore Yersiniabactin Biosynthesis', 'Culicoidibacteraceae', 'Ardenticatenaceae', 'Lentimicrobiaceae', 'Xanthine dehydrogenase subunits', 'Halarsenatibacteraceae']
+
+--- COPF 100 : Length 23 ---
+['Coelosphaeriaceae', 'Electron-bifurcating caffeyl-CoA reductase-Etf complex', 'Christensenellaceae', 'Coprothermobacteraceae', 'NiFe hydrogenase maturation', 'Peptostreptococcaceae', 'Dethiosulfovibrionaceae', 'NAD-reducing [NiFe] hydrogenase HoxFUYH(E)', 'Anaerovoracaceae', 'Desulfatibacillaceae', 'Magnetaquicoccaceae', 'Geopsychrobacteraceae', 'Glutamate fermentation', 'Coriobacteriaceae', 'Egicoccaceae', 'Eggerthellaceae', 'Atopobiaceae', 'Anaerobic glycerol-3-phosphate dehydrogenase subunits', 'Methanogenesis from methylated compounds', 'Desulfurellaceae', 'Butyrate kinase pathway', 'Lysine fermentation to crotonoyl-CoA', 'Eubacteriales Family XIII. Incertae Sedis']
+
+--- COPF 101 : Length 2 ---
+['ESAT-6 proteins secretion system in Mycobacteria (locus ESX-1)', 'ESAT-6 protein secretion system in Mycobacteria (locus ESX-5)']
+
+--- COPF 102 : Length 4 ---
+['Toxin-antitoxin replicon stabilization systems', 'ESAT-6 proteins secretion system in Firmicutes and Actinobacteria', 'YoeB-YefM toxin-antitoxin system', 'Dihydroxyacetone kinases']
+
+--- COPF 103 : Length 2 ---
+['Syntrophorhabdaceae', 'Glycerol ABC transporter']
+
+--- COPF 104 : Length 6 ---
+['tRNA aminoacylation, Thr', 'Lipoylation-related cluster', 'Planococcaceae', 'Bacillaceae', 'Alicyclobacillaceae', 'Biotin synthesis cluster']
+
+--- COPF 105 : Length 3 ---
+['The Chv two-component regulatory system', 'Murein hydrolase regulation and cell death', 'Queuosine and archaeosine']
+
+--- COPF 106 : Length 4 ---
+['ESAT-6 proteins secretion system in Firmicutes extended', 'Urease subunits', 'Deinococcaceae', 'Nickel-requiring']
+
+--- COPF 107 : Length 3 ---
+['Adenosyl nucleosidases', 'Na-driven 2-hydroxyglutarate pathway', 'Metabolite repair']
+
+--- COPF 108 : Length 1 ---
+['D-3-phosphoglycerate to phosphoserine module']
+
+--- COPF 109 : Length 2 ---
+['Histidine Degradation', 'Enterobacterial common antigen (LPS O-antigen)']
+
+--- COPF 110 : Length 10 ---
+['Pelagibacteraceae', 'Dipicolinate Synthesis', 'Anaerotignaceae', 'Dethiobacteraceae', 'Methylacidiphilaceae', 'Fibrobacteraceae', 'Calditerrivibrionaceae', 'Thalassospiraceae', 'Beta-lactamases Ambler class A', 'RSF1010 like IncQ broad-host-range plasmids']
+
+--- COPF 111 : Length 22 ---
+['Biofilm formation in Staphylococcus', 'Bile hydrolysis', 'Formaldehyde assimilation: Ribulose monophosphate pathway', 'Adhesins in Staphylococcus', 'Pore-forming cytolytic toxins', 'Alpha-acetolactate operon', 'Actinospicaceae', 'Desulfococcaceae', 'Siderophore Staphylobactin', 'Staphylococcaceae', 'p-Aminobenzoyl-Glutamate Utilization', 'Desulfotomaculaceae', "Biosynthesis of 4,4'-diapolycopene dialdehyde", 'Fosfomycin resistance', 'Methylglyoxal resistance in Bacillus subtilis', 'Toxins', 'Bacillithiol synthesis', 'Listeria Pathogenicity Island LIPI-1 extended', 'Siderophore Anthrachelin', 'Teicoplanin resistance in Staphylococci', 'Cytolysin and Lipase operon in Vibrio', 'Multi-subunit cation antiporter']
+
+--- COPF 112 : Length 16 ---
+['Erwiniaceae', 'D-gluconate and ketogluconates metabolism', 'BactLuciferaseComplex', 'Vibrionaceae', 'DNA repair, bacterial photolyase', 'Chromobacteriaceae', 'Yersiniaceae', 'Glycine betaine synthesis from choline', 'Methylglyoxal Metabolism', 'Glyoxylate bypass', 'Putative oxidase COG2907', 'Cyanophycin Metabolism', 'Fatty acid catabolic operon fadN-fadA-fadE (yusJKL)', 'Heme O and Heme A biosynthesis', 'Cysteine synthesis', 'Carnitine metabolism and transport']
+
+--- COPF 113 : Length 3 ---
+['Alkane biosynthesis in bacteria', 'Citrate uptake cluster', 'Listeriaceae']
+
+--- COPF 114 : Length 8 ---
+['Potassium-transporting ATPase', 'Proline biosynthesis (for review)', 'Cytophagaceae', 'Fet iron export system', 'Hydroxy-fatty acid production as stress response', 'Pectobacteriaceae', 'Urea carboxylase and Allophanate hydrolase cluster', 'Arcobacteraceae']
+
+--- COPF 115 : Length 8 ---
+['Enterobacteriaceae', 'Urea cycle', 'Anaerobic module of TCA', 'Arginine biosynthesis via N-acetyl-L-citrulline', 'Arginine biosynthesis', 'Histidine Biosynthesis -- gjo', 'Histidine Biosynthesis', 'Pterin synthesis related cluster']
+
+--- COPF 116 : Length 6 ---
+['D-Galacturonate and D-Glucuronate Utilization', 'NADH ubiquinone oxidoreductase vs. multi-subunit cation antiporter', 'Proline, 4-hydroxyproline uptake and utilization', 'Pyruvate metabolism I: anaplerotic reactions, PEP', 'Nucleoside uptake and degradation cluster', 'Cold shock proteins of CSP family']
+
+--- COPF 117 : Length 4 ---
+['Nucleoside ABC transporter cluster', 'NADH ubiquinone oxidoreductase', 'Respiratory Complex I', 'Uridine to beta-Alanine and Thymine to 3-aminoisobutanoate module']
+
+--- COPF 118 : Length 6 ---
+['Maintenance of outer membrane lipid asymmetry', 'Alcanivoracaceae', 'Selenocysteine metabolism', 'Tripartite multidrug efflux systems (of RND type) in Pseudomonas', 'Lipopolysaccharide in K12', 'Zoogloeaceae']
+
+--- COPF 119 : Length 33 ---
+['Gene Transfer Agent', 'Phospholipid and Fatty acid biosynthesis related cluster', 'Solibacteraceae', 'Nevskiaceae', 'Oceanospirillaceae', 'Mu-like phage', 'MukBEF Chromosome Condensation', 'Oscillatoriaceae', 'Sugar-phosphate stress regulation', 'Spore germination', 'Peptide ABC transport system Sap', 'Shikimate kinase SK3 cluster', 'Acidithiobacillaceae', 'Trimethylamine-N-oxide operon', 'Aeromonadaceae', 'Oxalobacteraceae', 'Crocinitomicaceae', 'Gemmataceae', 'Hexose phosphate transport system', 'Thermoleophilaceae', 'Lambdoid phage', 'Halieaceae', 'Psychromonadaceae', 'Shewanellaceae', 'Sporomusaceae', 'Weeksellaceae', 'Bacteriovoracaceae', 'Pseudobdellovibrionaceae', 'Chitinophagaceae', 'Sphingobacteriaceae', 'Idiomarinaceae', 'Alteromonadaceae', 'Chromatiaceae']
+
+--- COPF 120 : Length 38 ---
+['Polymyxin resistance', 'Methylococcaceae', 'Siderophore Aerobactin', 'Tripartite multidrug efflux systems (of RND type) AcrAB-TolC and related transporters', 'Caulobacteraceae', 'TAM transport system', 'Tripartite multidrug efflux systems (of MFS type) in Gram-negative bacteria', 'Rhodanobacteraceae', 'mRNA 3-end processing factor containing cluster', 'Type III secretion system orphans', 'Burkholderiaceae', 'Endozoicomonadaceae', 'Anaeromyxobacteraceae', 'Tocopherols and tocotrienols (vitamin E) in plants and cyanobacteria', 'Nitrobacteraceae', 'Leptolyngbyaceae', 'Biofilm Adhesin Biosynthesis', 'Copper transport and blue copper proteins', 'Aquaspirillaceae', 'Proteorhodopsin', 'Possible heterocyst differentiation related cluster', 'Sutterellaceae', 'Calotrichaceae', 'Rhodocyclaceae', 'Ergothioneine biosynthesis', 'Delta(6)-desaturase containing cluster', 'Competibacteraceae', 'Sphingomonadaceae', 'L-rhamnonate utilization cluster', 'Halomonadaceae', 'tRNA splicing', 'Molybdopterin cytosine dinucleotide', 'Multidrug Resistance, Tripartite Systems Found in Gram Negative Bacteria TEMP', 'Comamonadaceae', 'Paracoccaceae', 'Morganellaceae', 'Hyphomicrobiaceae', 'Pirellulaceae']
+
+--- COPF 121 : Length 21 ---
+['Siderophore Achromobactin', 'Owenweeksiaceae', 'Fluviibacteraceae', 'ABC transporter YeiABEF', 'Salinivirgaceae', 'Kangiellaceae', 'AttEFGH ABC Transport System', 'Beta-lactamases Ambler class B', 'Ectothiorhodospiraceae', 'Amidase clustered with urea and nitrile hydratase functions', 'Melioribacteraceae', 'Pleioneaceae', 'Xanthomonadaceae', 'Obscuribacteraceae', 'Algiphilaceae', 'Tolypothrichaceae', 'Barnase-barstar complex', 'Aestuariivirgaceae', 'Moorellaceae', 'Halothiobacillaceae', 'Cellvibrionaceae']
+
+--- COPF 122 : Length 7 ---
+['Moraxellaceae', 'Rhizobiaceae', 'Methylophilaceae', 'Lipid orphans', 'Leptospiraceae', 'P2-like phage', 'Myxococcaceae']
+
+--- COPF 123 : Length 50 ---
+['Acyclic terpene utilization', 'Adenylylsulfate reductase', 'Geothermobacteraceae', 'ABC-type iron transport system', 'Potential DNA repair cluster', 'Quorum sensing regulation in Pseudomonas', 'CMP-pseudaminic acid synthesis', 'Cytochrome c oxidase EC 1.9.3.1', 'Dihydropyrimidine dehydrogenase', 'Cholera toxin', 'Carbon storage regulator', 'Biogenesis of cbb3-type cytochrome c oxidases', 'Extracellular matrix proteins (PSL) involved in mannose-rich biofilm formation in Pseudomonas', 'Beta-lactamases Ambler class D', 'Extracellular matrix proteins (PEL) involved in glucose-rich biofilm formation in Pseudomonas', 'Colwelliaceae', 'Bruguierivoracaceae', 'Heme and heme d1 biosynthesis from siroheme', 'Microbulbiferaceae', 'Type III secretion system', 'Mycobacterial FadD proteins (fatty acid CoA- and AMP- ligases)', 'Ventosimonadaceae', 'Marinobacteraceae', 'Mycobacterial FadE proteins Acyl-CoA dehydrogenase', 'Natronospirillaceae', 'Malonate decarboxylase', 'Aestuariirhabdaceae', 'tRNA modification, 5-oxyacetyl uridine (cmo5U34)', 'Coxiellaceae', 'Maricaulaceae', 'Dissulfurirhabdaceae', 'L-2-amino-4-methoxy-trans-3-butenoic acid synthesis', 'Small efflux transporters of SMR family', 'Trans-envelope signaling system VreARI in Pseudomonas', 'Sulfate assimilation related cluster', 'Thiofilaceae', 'Sulfate reduction-associated complexes', 'Sulfur transfer pathway CsdAEL', 'Stress proteins YciF, YciE', 'Outer membrane porins in Pseudomonas and Acinetobacter', 'Salmochelin-mediated Iron Acquisition', 'Phenazine biosynthesis', 'Siderophore Pyoverdine', 'Siderophore pyochelin', 'Type III secretion systems', 'Mycobacterial gene cluster associated with resistance against FAS-II antibiotics', 'Type 4 conjugative transfer system, IncI1 type', 'Sarcosine oxidases, monomeric and heterotetrameric', 'Desulfobaccaceae', 'Rhamnolipids in Pseudomonas']
+
+--- COPF 124 : Length 19 ---
+['Hydrolysis of sphingomyelin', 'Solirubrobacteraceae', 'Gentisate pathway', 'Chloramphenicol resistance', 'Glutaconate CoA-transferase or 3-oxoadipate CoA-transferase Subunits', 'Biogenesis of cytochrome c oxidases', 'Cysteine dioxygenase containing cluster 1', 'Cytochrome bo ubiquinol oxidase ', 'D-galacturonate utilization, oxidative pathway', 'Cyclic Di-GMP Turnover Proteins', 'Bacterial pathways for dimethylsulfoniopropionate and acrylate catabolism', 'Sphaerotilaceae', 'Chitinibacteraceae', 'Acidiferrobacteraceae', 'Phenylacetyl-CoA catabolic pathway (core)', 'Tricarboxylate transport system', 'Mycolic acid synthesis 2', 'Puniceicoccaceae', 'Brucellaceae']
+
+--- COPF 125 : Length 37 ---
+['Coenzyme PQQ synthesis', 'Protection from Reactive Oxygen Species', 'Nitrosomonadaceae', 'D-arabinose utilization', 'Formate dehydrogenase', 'HMG CoA Synthesis', 'Glutathione: Non-redox reactions', 'Glycolate, glyoxylate interconversions', 'Fusaric acid resistance cluster', 'General Secretion Pathway', 'Chemotaxis in Escherichia coli and Bacillus subtilis', 'Glutathione-dependent pathway of formaldehyde detoxification', 'EnvZ and OmpR regulon', 'Flagellum', 'Efflux ABC transporter YadGH', 'Polymyxin resistance, lipid A modifications with phosphoethanolamine', 'Tolerance to colicin E2 and CreBC signal transduction system', 'Tol-Pal Cell Envelope Complex', 'Taurine and alkanesulfonate utilization as sulfur sources', 'Periplasmic nitrate reductase EC 1.7.99.4', 'Polymyxin resistance, lipid A modifications with 4-amino-4-deoxy-L-arabinose', 'Polyadenylation, bacterial', 'Phosphonate metabolism', 'Tripartite multidrug efflux systems (of RND type) MdtABC-TolC', 'MexXY System of Pseudomonas aeruginosa', 'Type VI secretion system', 'Ubiquinone biosynthesis', 'Tripartite multidrug efflux systems (of MFS type) EmrKY-TolC and EmrAB-TolC', 'Iron siderophore sensor & receptor system', 'IbrA and IbrB: co-activators of prophage gene expression', 'Spongiibacteraceae', 'Heme O and Heme A biosynthesis (with selected terminal oxidases)', 'Ribitol utilization', 'Respiratory Systems - Shewanella (updated)', 'Phosphoenolpyruvate phosphomutase', 'Putative TldE-TldD proteolytic complex', 'Putrescine utilization']
+
+--- COPF 126 : Length 29 ---
+['Fortieaceae', 'Ethylmalonyl-CoA pathway of C2 assimilation', 'Labilitrichaceae', 'Elioraeaceae', 'Copper uptake system CopCD', 'Ktedonosporobacteraceae', 'Stellaceae', 'Carbon monoxide induced hydrogenase', 'Paceibacteraceae', 'Desulfonatronaceae', 'Agrobacterium opine transport', 'Chamaesiphonaceae', 'Alcaligenaceae', 'Azonexaceae', 'Beta-lactamases Ambler class C', 'Indole-pyruvate oxidoreductase complex', 'Indoleacetamide metabolism', 'Integrons', 'Methylhydantoinase', 'Aromatic amino acid interconversions with aryl acids', 'Emcibacteraceae', 'Thermithiobacillaceae', 'Tricarballylate Utilization', 'Nicotinic acid utilization', 'Nitrilase', 'Cholesterol catabolism', 'Sterolibacteriaceae', 'Rcs two-component regulator of capsule synthesis', 'Tetrathionate respiration']
+
+--- COPF 127 : Length 21 ---
+['A new toxin - antitoxin system', '2,3-diacetamido-2,3-dideoxy-d-mannuronic acid', 'Conjugative transfer', 'Xanthobacteraceae', 'Waddliaceae', 'Ectoine synthesis', 'D-threonate, L-threonate and D-erythronate utilization', 'Thiobacillaceae', 'Gallionellaceae', 'Leeiaceae', 'Cyclobacteriaceae', 'Bacteriocin resistance related cluster', 'Vir-like type 4 secretion system', 'Lysine fermentation', 'Type 4 secretion and conjugative transfer', 'Vanillate and syringate utilization', 'Piscirickettsiaceae', 'Osmotic stress cluster', 'Oxygen-sensing diguanylate cyclase and phosphodiesterase couple for c-di-GMP control', 'Desulfatiglandaceae', 'Resistance to chromium compounds']
+
+--- COPF 128 : Length 10 ---
+['Desulfovibrionaceae', 'Thorselliaceae', 'Orbaceae', 'Cryosericaceae', 'Trichocoleusaceae', 'Budviciaceae', 'Saprospiraceae', 'Sulfurimonadaceae', 'Thermoanaerobacteraceae', 'Cryomorphaceae']
+
+--- COPF 129 : Length 29 ---
+['Anaplasmataceae', 'Bradymonadaceae', 'Sedimenticolaceae', 'Wenzhouxiangellaceae', 'Hafniaceae', 'Hopanoid biosynthesis', 'Balneatrichaceae', 'Phosphonoalanine utilization', 'Phosphonate (phosphite) dehydrogenase', 'Predicted secretion system X', 'Desulfofervidaceae', 'Desulfosarcinaceae', 'Desulfomicrobiaceae', 'Transcriptional regulator AfsR', 'Phr peptides - Rap phosphatases signaling', 'Oleiphilaceae', 'Perlucidibacaceae', 'Pyrinomonadaceae', 'Saccharospirillaceae', 'Ferrovaceae', 'Dioxygenolytic carbon monoxide-forming enzymes', 'Entericidin', 'GlrKR two-component regulatory system', 'Victivallaceae', 'Carotenogenesis related cluster', 'Nostocaceae', 'Coenzyme F420 synthesis', 'Robiginitomaculaceae', 'Dictyobacteraceae']
+
+--- COPF 130 : Length 61 ---
+['Ahrensiaceae', 'Pleomorphomonadaceae', 'AaeAB efflux system for hydroxylated, aromatic carboxylic acids', 'Adaptation to d-cysteine', 'Criblamydiaceae', 'Herpetosiphonaceae', 'Ktedonobacteraceae', 'Parachlamydiaceae', 'Desulfurobacteriaceae', 'Dietziaceae', 'Hoyosellaceae', 'Hahellaceae', 'Isoniazid inductible proteins cluster', 'Gaiellaceae', 'Fimbriimonadaceae', 'Rubrobacteraceae', 'Conexibacteraceae', 'Microthrixaceae', 'Siderophore Enterobactin', 'Rhodothermaceae', 'Geobacteraceae', 'Pyruvate Alanine Serine Interconversions', 'Spore germinant receptors', 'TonB-ExbBD energy transducing system', 'Mycobacterial multidrug efflux systems implicated in AMR ', 'Desulfocapsaceae', 'Kosmotogaceae', 'Syntrophobacteraceae', 'Acetomicrobiaceae', 'L-galactonate utilization', 'Geodermatophilaceae', 'Dermacoccaceae', 'Iamiaceae', 'Mariprofundaceae', 'Korobacteraceae', 'ZraPRS-based zinc resistance', 'Lichenihabitantaceae', 'Iodidimonadaceae', 'Caldilineaceae', 'Thermaceae', 'Spirulinaceae', 'Cytochrome b6-f complex in plants (plastidial) and cyanobacteria', 'Reichenbachiellaceae', 'Cloacimonadaceae', 'Williamwhitmaniaceae', 'Halanaerobiaceae', 'D-allose utilzation', 'D-glucosaminate utilization', 'Sphingosinicellaceae', 'Balneolaceae', 'Spirosomataceae', 'Hymenobacteraceae', 'Neosynechococcaceae', 'Pseudanabaenaceae', 'Flexistipitaceae', 'Roseiflexaceae', 'Parvibaculaceae', 'Chlorophyll Biosynthesis in plants and prokaryotes', 'CytR regulation', 'Scytonemataceae', 'Cobalamin synthesis, Precorin-2 to Cob(II)yrinate a,c diamide, aerobic']
+
+--- COPF 131 : Length 12 ---
+['Butyricicoccaceae', 'Marivirgaceae', 'Rarobacteraceae', 'Clostridiaceae', 'Anaerolineaceae', 'Hippeaceae', 'Thermotogaceae', 'Translation initiation factors, eukaryotic and archaeal', 'Desulfobacteraceae', 'Proteasome bacterial', 'Demequinaceae', 'Two partner secretion pathway (TPS)']
+
+--- COPF 132 : Length 9 ---
+['Nitrogen fixation', 'Ribosome LSU, eukaryotic and archaeal', 'RNA polymerase, archaeal initiation factors', 'Lysine Biosynthesis via alpha-aminoadipate AAA', 'Translation elongation factors, eukaryotic and archaeal', 'Ribosome biogenesis, archaeal', 'Exosome', 'Box C-D RNA-guided RNA methyltransferase', 'Ribosome SSU, eukaryotic and archaeal']
+
+--- COPF 133 : Length 28 ---
+['Porticoccaceae', 'Gordoniaceae', 'Dongiaceae', 'Chelatococcaceae', 'Phycisphaeraceae', 'Energy conserving hydrogenase b, Methanococcales-Methanobacteriales-Methanopyrales', 'Fodinicurvataceae', 'Micropepsaceae', 'Kaistiaceae', 'Methylobacteriaceae', 'Roseobacteraceae', 'Acetobacteraceae', 'Diphthamide biosynthesis', 'Archaeal membrane bound hydrogenases', 'Acidimicrobiaceae', 'Mebrane bound hydrogenases', 'Propionibacteriaceae', 'Ornithinimicrobiaceae', 'Azospirillaceae', 'Terasakiellaceae', 'Novispirillaceae', 'Beijerinckiaceae', 'Nitrospiraceae', 'Phyllobacteriaceae', 'Stappiaceae', 'Magnetospirillaceae', 'Gemmatimonadaceae', 'Verrucomicrobiaceae']
+
+--- COPF 134 : Length 5 ---
+['Succinate dehydrogenase and Fumarate reductase cpmlexes', 'Resistance to Ethionamide and Isoniazid', 'Biotin biosynthesis', 'Cytochrome d ubiquinol oxidase operon', 'Fatty acid degradation']
+
+--- COPF 135 : Length 4 ---
+['Bicyclomycin resistance cluster', 'Heme Biosynthesis: protoporphyrin-, coproporphyrin- and siroheme-dependent pathways', 'Metal chelatases', 'Menaquinone biosynthesis from chorismate via 1,4-dihydroxy-2-naphthoate']
+
+--- COPF 136 : Length 3 ---
+['Glycine cleavage system', 'Lipoylated proteins', 'Lipoic acid metabolism']
+
+--- COPF 137 : Length 5 ---
+['Chlorophyll a synthase and phytol kinase cluster', 'Post-translational modification of proteins', 'Arginine succinyltransferase pathway', 'TCA Cycle', 'Biotin synthesis & utilization']
+
+--- COPF 138 : Length 4 ---
+['Photorespiration (oxidative C2 cycle)', 'Menaquinone biosynthesis from chorismate via 1,4-dihydroxy-6-naphthoate', '2-oxoglutarate dehydrogenase ', 'Degradation of branched-chain amino acids and alpha-keto acids [Leu, Val]']
+
+--- COPF 139 : Length 4 ---
+['Coenzyme A Biosynthesis cluster', 'Denitrifying reductase gene clusters', 'Resistance to the fluoroquinolones norfloxacin and ciprofloxacin', 'Oxygen-sensing two-component regulatory system NreABC']
+
+--- COPF 140 : Length 3 ---
+['Dehydrogenase complexes', 'Dissimilatory nitrite reductase', 'Choline uptake and conversion to betaine clusters']
+
+--- COPF 141 : Length 8 ---
+['Utilization systems for glycans and polysaccharides (PULs, SUS)', 'Rikenellaceae', 'Conjugative transposon, Bacteroidales', 'Na-translocating NADH-quinone oxidoreductase', 'Dysgonomonadaceae', 'Bacterial Sphingolipids', 'BtuS-PduT gene cluster for metalloporphyrine salvage', 'Bacteroidaceae']
+
+--- COPF 142 : Length 7 ---
+['Bacteroides capsular polysaccharide transcription antitermination proteins', 'Muribaculaceae', 'Barnesiellaceae', 'Haliscomenobacteraceae', '2-ketoacid oxidoreductases disambiguation', 'Paludibacteraceae', 'Prevotellaceae']
+
+--- COPF 143 : Length 4 ---
+['Flammeovirgaceae', 'Tannerellaceae', 'Akkermansiaceae', 'Chlorobiaceae']
+
+--- COPF 144 : Length 5 ---
+['Prolixibacteraceae', 'Marinilabiliaceae', 'Odoribacteraceae', 'Possible DNA repair related cluster', 'Balneicellaceae']
+
+--- COPF 145 : Length 12 ---
+['Colanic acid synthesis', 'Cob(I)alamin adenosyltransferase', 'Lipopolysaccharide transporter LptABC', 'tRNA aminoacylation, Glu', 'KDO2-Lipid A biosynthesis', 'beta-Barrel Assembly Machinery', 'Lipoprotein transporter to outer membrane Lol', 'Type I secretion systems disambiguation', 'Outer membrane', 'Pyrroloquinoline Quinone biosynthesis', 'tRNA aminoacylation, Gln', 'Lpt lipopolysaccharide transport system']
+
+--- COPF 146 : Length 5 ---
+['Possible RNA modification and stress response cluster', 'Encapsulation of DyP-type peroxidase or ferritin-like protein oligomers', 'Acetyl-CoA Pathway Wood-Ljungdahl', 'Pyruvate:ferredoxin oxidoreductase', 'Thiotrichaceae']
+
+--- COPF 147 : Length 2 ---
+['Aerotolerance operon', 'Inositol-containing phospholipids']
+
+--- COPF 148 : Length 2 ---
+['Branched-chain amino acids and alpha-keto acids utilization as energy sources', 'Muconate lactonizing enzyme family']
+
+--- COPF 149 : Length 5 ---
+['Biosynthesis of thiamin antivitamin Bacimethrin', 'Pyridoxin (Vitamin B6) Biosynthesis', 'Modification of eukaryotic initiation factor 5A', 'Peptidyl-prolyl cis-trans isomerase', 'Oligopeptide degradation cluster']
+
+--- COPF 150 : Length 3 ---
+['Methylthiotransferases', 'Ribosomal protein S12p Asp methylthiotransferase', 'Protein chaperones']
+
