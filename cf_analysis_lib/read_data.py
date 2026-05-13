@@ -81,6 +81,115 @@ def read_taxonomy(datadir, sequence_type, taxonomy, all_taxa=False, rawdata=Fals
     df = df.sort_index(axis=1)
     return df
 
+def read_selected_taxonomy(datadir, taxonomy, selection, all_taxa=False, rawdata=False):
+    """
+    Read the taxonomy file and return a data frame
+    This version uses the data in `selected_data/`
+    """
+
+    if selection.lower() == 'mgi_no_pseudomonas':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI_no_pseudomonas'
+    else:
+        raise ValueError(f"Sorry. Don't know what selection {selection} is supposed to be")
+
+    tax_file = os.path.join(datadir, "selected_data", sequence_dir, "Taxonomy", f"reads_{taxonomy}.normalised.tsv.gz")
+    if rawdata:
+        tax_file = os.path.join(datadir, "selected_data", sequence_dir, "Taxonomy", f"{sequence_type}_reads_{taxonomy}.raw.tsv.gz")
+
+    if not os.path.exists(tax_file):
+        raise FileNotFoundError(f"Error: {tax_file} does not exist")
+    df = pd.read_csv(tax_file, sep='\t', compression='gzip')
+    if not all_taxa:
+        df = df[df['taxonomy'].str.contains('k__Bacteria')]
+    df = df[~df['taxonomy'].str.endswith(f'{taxonomy[0]}__')]
+    df = df[~df['taxonomy'].str.endswith(';;')]
+    df = df.set_index('taxonomy')
+    for c in df.columns:
+        if c in corrections[sequence_type.lower()]:
+            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
+    df.index = df.index.str.replace(f'{taxonomy[0]}__', '').str.replace('Candidatus ', '')
+    df.index = df.index.str.split(';').str[-1]
+
+    df = df.sort_index(axis=1)
+    return df
+
+
+def read_subsystems(datadir, sslevel, sequence_type):
+    """
+    Read the subsystems file and return a data frame
+    """
+    
+    if sequence_type.lower() == 'mgi':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI'
+    elif sequence_type.lower() == 'minion':
+        sequence_type = 'MinION'
+        sequence_dir = 'MinION'
+    elif sequence_type.lower() == 'promethion':
+        sequence_type = 'PromethION'
+        sequence_dir = 'PromethION'
+    else:
+        raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
+        
+
+    subsystems_file = os.path.join(datadir, sequence_dir, "FunctionalAnalysis", "subsystems", sslevel)
+
+    if not os.path.exists(subsystems_file):
+        ssl = subsystems_file.split(os.path.sep)
+        ssl[-1] = f"{sequence_type}_{ssl[-1]}"
+        ssfile = os.path.sep.join(ssl)
+        if os.path.exists(ssfile):
+            subsystems_file = ssfile
+            print(f"Using {subsystems_file} for the subsystems", file=sys.stderr)
+        else:
+            print(f"Neither {subsystems_file} nor {ssfile} exist", file=sys.stderr)
+            raise FileNotFoundError(f"Error: Subsystems file: {subsystems_file} does not exist")
+
+    if subsystems_file.endswith('.gz'):
+        df = pd.read_csv(subsystems_file, sep='\t', compression='gzip', index_col=0)
+    else:
+        df = pd.read_csv(subsystems_file, sep='\t', index_col=0)
+    for c in df.columns:
+        if c in corrections[sequence_type.lower()]:
+            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
+    return df
+
+
+def read_selected_subsystems(datadir, sslevel, selection, sequence_type):
+    """
+    Read the subsystems file and return a data frame
+    """
+    
+    if selection.lower() == 'mgi_no_pseudomonas':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI_no_pseudomonas'
+    else:
+        raise ValueError(f"Sorry. Don't know what selection {selection} is supposed to be")
+
+    subsystems_file = os.path.join(datadir, "selected_data", sequence_dir, "FunctionalAnalysis", "subsystems", sslevel)
+
+    if not os.path.exists(subsystems_file):
+        ssl = subsystems_file.split(os.path.sep)
+        ssl[-1] = f"{sequence_type}_{ssl[-1]}"
+        ssfile = os.path.sep.join(ssl)
+        if os.path.exists(ssfile):
+            subsystems_file = ssfile
+            print(f"Using {subsystems_file} for the subsystems", file=sys.stderr)
+        else:
+            print(f"Neither {subsystems_file} nor {ssfile} exist", file=sys.stderr)
+            raise FileNotFoundError(f"Error: Subsystems file: {subsystems_file} does not exist")
+
+    if subsystems_file.endswith('.gz'):
+        df = pd.read_csv(subsystems_file, sep='\t', compression='gzip', index_col=0)
+    else:
+        df = pd.read_csv(subsystems_file, sep='\t', index_col=0)
+    for c in df.columns:
+        if c in corrections[sequence_type.lower()]:
+            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
+    return df
+
+
 def read_metadata(datadir, sequence_type, categorise=False, verbose=False):
     """
     Read the metadata file and return a data frame
@@ -128,44 +237,6 @@ def read_metadata(datadir, sequence_type, categorise=False, verbose=False):
                 metadata[c] = pd.to_datetime(metadata[c])
 
     return metadata
-
-
-def read_subsystems(subsystems_file, sequence_type):
-    """
-    Read the subsystems file and return a data frame
-    """
-    
-    if sequence_type.lower() == 'mgi':
-        sequence_type = 'MGI'
-        sequence_dir = 'MGI'
-    elif sequence_type.lower() == 'minion':
-        sequence_type = 'MinION'
-        sequence_dir = 'MinION'
-    elif sequence_type.lower() == 'promethion':
-        sequence_type = 'PromethION'
-        sequence_dir = 'PromethION'
-    else:
-        raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
-
-    if not os.path.exists(subsystems_file):
-        ssl = subsystems_file.split(os.path.sep)
-        ssl[-1] = f"{sequence_type}_{ssl[-1]}"
-        ssfile = os.path.sep.join(ssl)
-        if os.path.exists(ssfile):
-            subsystems_file = ssfile
-            print(f"Using {subsystems_file} for the subsystems", file=sys.stderr)
-        else:
-            print(f"Neither {subsystems_file} nor {ssfile} exist", file=sys.stderr)
-            raise FileNotFoundError(f"Error: Subsystems file: {subsystems_file} does not exist")
-
-    if subsystems_file.endswith('.gz'):
-        df = pd.read_csv(subsystems_file, sep='\t', compression='gzip', index_col=0)
-    else:
-        df = pd.read_csv(subsystems_file, sep='\t', index_col=0)
-    for c in df.columns:
-        if c in corrections[sequence_type.lower()]:
-            raise(ValueError(f"Sample ID {c} in taxonomy is outdated. This should have been corrected to {corrections[sequence_type.lower()][c]}"))
-    return df
 
 
 def sorted_presence_absence(df1, df2, minrowsum=0, asc_sort=False):
@@ -257,12 +328,54 @@ def read_the_data(sequence_type, datadir, sslevel='subsystems_norm_ss.tsv.gz', t
     else:
         raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
 
-    ss_df = read_subsystems(
-        os.path.join(datadir, sequence_type, "FunctionalAnalysis", "subsystems", sslevel), sequence_type)
+    ss_df = read_subsystems(datadir, sslevel, sequence_type)
     ss_df = ss_df.T
     if verbose:
         print(f"Read {ss_df.shape[0]} samples and {ss_df.shape[1]} subsystems", file=sys.stderr)
     genus_otu = read_taxonomy(datadir, sequence_type, taxa, all_taxa)
+    genus_otu = genus_otu.T
+    if verbose:
+        print(f"Read {genus_otu.shape[0]} samples and {genus_otu.shape[1]} {taxa}", file=sys.stderr)
+    df = ss_df.merge(genus_otu, left_index=True, right_index=True, how='inner')
+
+    metadata = read_metadata(datadir, sequence_type, categorise=True)
+    if verbose:
+        print(f"Read {metadata.shape[0]} samples and {metadata.shape[1]} metadata columns", file=sys.stderr)
+
+    return df, metadata
+
+
+def read_selected_data(sequence_type, datadir, selection='MGI_no_pseudomonas', sslevel='subsystems_norm_ss.tsv.gz', taxa="family", all_taxa=False, verbose=False):
+    """
+    Read the selected data and return the data frame and metadata
+    :param sequence_type: MGI or MinION
+    :param datadir: where is the data
+    :param selection: which selection to read (At the moment we only support MGI_no_pseudomonas)
+    :param sslevel: subsystems level to read
+    :param taxa: taxonomy level to read
+    :return: two dataframes, data and metadata
+    """
+
+    if sequence_type.lower() == 'mgi':
+        sequence_type = 'MGI'
+        sequence_dir = 'MGI'
+    elif sequence_type.lower() == 'minion':
+        sequence_type = 'MinION'
+        sequence_dir = 'MinION'
+    elif sequence_type.lower() == 'promethion':
+        sequence_type = 'PromethION'
+        sequence_dir = 'PromethION'
+    else:
+        raise ValueError(f"Sorry. Don't know what sequence type {sequence_type} is supposed to be")
+
+    if selection.lower() != 'mgi_no_pseudomonas':
+        raise ValueError(f"Sorry. Don't know what selection {selection} is supposed to be. At the moment we only support MGI_no_pseudomonas")
+
+    ss_df = read_selected_subsystems(datadir, sslevel, selection, sequence_type)
+    ss_df = ss_df.T
+    if verbose:
+        print(f"Read {ss_df.shape[0]} samples and {ss_df.shape[1]} subsystems", file=sys.stderr)
+    genus_otu = read_selected_taxonomy(datadir, taxa, selection, all_taxa)
     genus_otu = genus_otu.T
     if verbose:
         print(f"Read {genus_otu.shape[0]} samples and {genus_otu.shape[1]} {taxa}", file=sys.stderr)
